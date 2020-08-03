@@ -1,0 +1,8 @@
+
+
+//SelectTable
+
+$(function(){
+
+	$('#kurslar').selectable();
+})

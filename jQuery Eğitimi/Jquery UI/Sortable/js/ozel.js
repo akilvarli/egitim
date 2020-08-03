@@ -1,0 +1,8 @@
+
+
+//Sortable
+
+$(function(){
+
+	$('#kurslar').sortable();
+})

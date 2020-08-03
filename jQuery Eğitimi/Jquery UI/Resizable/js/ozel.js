@@ -1,0 +1,8 @@
+
+
+//Resizable
+
+$(function(){
+
+	$('#kare').resizable();
+})

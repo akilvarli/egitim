@@ -1,0 +1,10 @@
+
+
+
+
+//Menu
+
+$(function(){
+
+	$('#menu').menu();
+})

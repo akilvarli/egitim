@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+
+	<title>JS Eğitimi</title>
+	<script type="text/javascript">
+
+	//Try Throw
+
+	var a=20;
+	var b=20;
+
+	try {
+
+		if (a<b) {
+
+			throw "buyuk";
+
+		}
+
+		if (a==b) {
+
+			throw "esit";
+		}
+
+		document.write(a+" ve "+b);
+
+
+	} catch(err) {
+
+		if (err=="buyuk") {
+
+			document.write("a sayısı b den büyük olamaz");
+
+		}
+
+		document.write(err);
+
+	}
+ 	
+
+
+
+
+
+
+	
+	</script>	
+</head>
+<body>
+
+</body>
+</html>
